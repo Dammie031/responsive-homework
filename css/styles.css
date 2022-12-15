@@ -16,6 +16,9 @@ h1,h2,h3,h4,h5,h6{
     h2{
         font-size: 64px;
     }
+    h4{
+        font-size: 48px;
+    }
     .hero{
         background: var(--secondary-color);
         text-align: center;
@@ -74,6 +77,10 @@ h1,h2,h3,h4,h5,h6{
         h2{
             font-size: 44px;
         }
+        h4{
+            font-size: 26px;
+        }
+        
         .hero{
             padding: 80px 20px ;
         }
@@ -81,6 +88,10 @@ h1,h2,h3,h4,h5,h6{
             text-align: center;
             padding: 0;
             
+        }
+        footer .contact-box{
+            padding: 30px;
+         
         }
     }
     .content-container{
@@ -120,3 +131,34 @@ h1,h2,h3,h4,h5,h6{
 padding: 0 10px;
 line-height: 14px;
     }
+    footer .email-link{
+text-decoration: none;
+color: black;
+font-size: 24px;
+
+    }
+    footer .email-link:hover{
+        color: var(--branding-color);
+    }
+   footer .social-links a{
+    margin: 0 20px;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+   }
+footer .social-links a:hover{
+    color: white;
+    background: var(--branding-color);
+
+}
+footer .contact-box{
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+footer .contact-box p{
+    margin: 0;
+}
